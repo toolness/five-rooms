@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "170"
+	"mapversion" "175"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -90,7 +90,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "170"
+	"mapversion" "175"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11666,6 +11666,11 @@ entity
 	"speed" "100"
 	"unlocked_sentence" "0"
 	"wait" "4"
+	connections
+	{
+		"OnFullyOpen" "fadeout,Fade,,0,-1"
+		"OnFullyOpen" "end_level,Command,disconnect,2,-1"
+	}
 	solid
 	{
 		"id" "2407"
@@ -11790,6 +11795,38 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "2498"
+	"classname" "env_fade"
+	"duration" "2"
+	"holdtime" "1"
+	"renderamt" "255"
+	"rendercolor" "0 0 0"
+	"targetname" "fadeout"
+	"origin" "-1120 -96 -255"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2768]"
+	}
+}
+entity
+{
+	"id" "2511"
+	"classname" "point_clientcommand"
+	"targetname" "end_level"
+	"origin" "-1104 -112 -255"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
 	}
 }
 cameras
