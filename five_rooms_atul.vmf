@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "91"
+	"mapversion" "92"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "91"
+	"mapversion" "92"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7299,7 +7299,7 @@ entity
 {
 	"id" "944"
 	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
+	"additionalequipment" "weapon_shotgun"
 	"angles" "0 255 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
@@ -7811,7 +7811,7 @@ entity
 {
 	"id" "1075"
 	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
+	"additionalequipment" "weapon_shotgun"
 	"angles" "0 270 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
