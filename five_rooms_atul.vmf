@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "159"
+	"mapversion" "163"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -90,7 +90,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "159"
+	"mapversion" "163"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11021,6 +11021,10 @@ entity
 	"unlocked_sentence" "0"
 	"unlocked_sound" "0"
 	"wait" "3"
+	connections
+	{
+		"OnPressed" "relay_combineshieldwall1_off,Trigger,,0,-1"
+	}
 	solid
 	{
 		"id" "2321"
