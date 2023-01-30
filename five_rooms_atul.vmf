@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "198"
+	"mapversion" "211"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -90,7 +90,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "198"
+	"mapversion" "211"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11732,7 +11732,7 @@ entity
 	connections
 	{
 		"OnPressed" "relay_combineshieldwall1_off,Trigger,,0,-1"
-		"OnPressed" "assault_goal,Activate,,0,-1"
+		"OnPressed" "investigation_starter,Trigger,,0,-1"
 	}
 	solid
 	{
@@ -11868,7 +11868,7 @@ hidden
 		"classname" "info_player_start"
 		"angles" "0 180 0"
 		"spawnflags" "1"
-		"origin" "-384 224 -255"
+		"origin" "-384 272 -255"
 		editor
 		{
 			"color" "0 255 0"
@@ -12083,9 +12083,11 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"sleepstate" "0"
+	"sleepstate" "3"
 	"spawnflags" "644"
+	"squadname" "investigation_squad"
 	"tacticalvariant" "0"
+	"target" "assault_rallypoint1"
 	"targetname" "assaulter1"
 	"usemarch" "0"
 	"waitingtorappel" "No"
@@ -12117,9 +12119,11 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"sleepstate" "0"
+	"sleepstate" "3"
 	"spawnflags" "644"
+	"squadname" "investigation_squad"
 	"tacticalvariant" "0"
+	"target" "assault_rallypoint2"
 	"targetname" "assaulter2"
 	"usemarch" "0"
 	"waitingtorappel" "No"
@@ -12136,22 +12140,21 @@ entity
 }
 entity
 {
-	"id" "2563"
-	"classname" "ai_goal_assault"
-	"actor" "assaulter*"
-	"AssaultCue" "1"
-	"rallypoint" "assault_rallypoint*"
-	"RallySelectMethod" "0"
-	"SearchType" "0"
-	"StartActive" "0"
-	"targetname" "assault_goal"
-	"origin" "-976 -160 -255"
+	"id" "2687"
+	"classname" "path_corner"
+	"angles" "0 45 0"
+	"spawnflags" "0"
+	"speed" "0"
+	"targetname" "assault_rallypoint3"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-704 -192 -255"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "247 181 82"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 500]"
+		"logicalpos" "[500 1500]"
 	}
 }
 entity
@@ -12231,82 +12234,17 @@ entity
 entity
 {
 	"id" "2588"
-	"classname" "assault_rallypoint"
-	"angles" "0 0 0"
-	"assaultdelay" "0"
-	"assaultpoint" "assault_point"
-	"forcecrouch" "0"
-	"priority" "1"
+	"classname" "path_corner"
+	"angles" "0 90 0"
+	"spawnflags" "0"
+	"speed" "0"
 	"targetname" "assault_rallypoint1"
-	"urgent" "0"
+	"wait" "0"
+	"yaw_speed" "0"
 	"origin" "-432 -96 -255"
 	editor
 	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 1500]"
-	}
-}
-entity
-{
-	"id" "2652"
-	"classname" "assault_assaultpoint"
-	"allowdiversion" "0"
-	"allowdiversionradius" "0"
-	"angles" "0 0 0"
-	"assaulttimeout" "3.0"
-	"assaulttolerance" "36"
-	"clearoncontact" "0"
-	"forcecrouch" "0"
-	"nevertimeout" "0"
-	"strict" "0"
-	"targetname" "assault_point"
-	"urgent" "0"
-	"origin" "-384 16 -255"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 2000]"
-	}
-}
-entity
-{
-	"id" "2665"
-	"classname" "assault_rallypoint"
-	"angles" "0 0 0"
-	"assaultdelay" "0"
-	"assaultpoint" "assault_point"
-	"forcecrouch" "0"
-	"priority" "1"
-	"targetname" "assault_rallypoint2"
-	"urgent" "0"
-	"origin" "-320 -96 -255"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 1500]"
-	}
-}
-entity
-{
-	"id" "2687"
-	"classname" "assault_rallypoint"
-	"angles" "0 0 0"
-	"assaultdelay" "0"
-	"assaultpoint" "assault_point"
-	"forcecrouch" "1"
-	"priority" "1"
-	"targetname" "assault_rallypoint3"
-	"urgent" "0"
-	"origin" "-704 -192 -255"
-	editor
-	{
-		"color" "220 30 220"
+		"color" "247 181 82"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1500]"
@@ -12329,9 +12267,11 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"sleepstate" "0"
+	"sleepstate" "3"
 	"spawnflags" "644"
+	"squadname" "investigation_squad"
 	"tacticalvariant" "0"
+	"target" "assault_rallypoint3"
 	"targetname" "assaulter3"
 	"usemarch" "0"
 	"waitingtorappel" "No"
@@ -12344,6 +12284,46 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -1768]"
+	}
+}
+entity
+{
+	"id" "2665"
+	"classname" "path_corner"
+	"angles" "0 90 0"
+	"spawnflags" "0"
+	"speed" "0"
+	"targetname" "assault_rallypoint2"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-320 -96 -255"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1500]"
+	}
+}
+entity
+{
+	"id" "2777"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "investigation_starter"
+	connections
+	{
+		"OnTrigger" "assaulter2,Wake,,0,-1"
+		"OnTrigger" "assaulter1,Wake,,0,-1"
+		"OnTrigger" "assaulter3,Wake,,0,-1"
+	}
+	"origin" "-880 -112 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3000]"
 	}
 }
 cameras
