@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "253"
+	"mapversion" "258"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "253"
+	"mapversion" "258"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -9375,11 +9375,11 @@ entity
 }
 entity
 {
-	"id" "3132"
+	"id" "3348"
 	"classname" "info_node"
 	"angles" "0 0 0"
-	"nodeid" "36"
-	"origin" "-512 768 -128"
+	"nodeid" "41"
+	"origin" "-512 824 -128"
 	editor
 	{
 		"color" "232 219 8"
@@ -9409,7 +9409,7 @@ entity
 	"classname" "info_node"
 	"angles" "0 0 0"
 	"nodeid" "34"
-	"origin" "-256 720 -128"
+	"origin" "-256 736 -128"
 	editor
 	{
 		"color" "232 219 8"
@@ -9435,17 +9435,20 @@ entity
 }
 entity
 {
-	"id" "3122"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "32"
-	"origin" "-144 784 -127"
+	"id" "3327"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "end_level,Command,crosshair 1,0,-1"
+	}
+	"origin" "-120 -64 -127"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -10364,7 +10367,7 @@ entity
 	"classname" "info_node"
 	"angles" "0 0 0"
 	"nodeid" "16"
-	"origin" "-376 704 -200"
+	"origin" "-376 720 -200"
 	editor
 	{
 		"color" "232 219 8"
@@ -12786,17 +12789,29 @@ entity
 }
 entity
 {
-	"id" "3327"
-	"classname" "logic_auto"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "end_level,Command,crosshair 1,0,-1"
-	}
-	"origin" "-120 -64 -127"
+	"id" "3344"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "39"
+	"origin" "-160 736 -128"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3346"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "40"
+	"origin" "-256 824 -128"
+	editor
+	{
+		"color" "232 219 8"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
