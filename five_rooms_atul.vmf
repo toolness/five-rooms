@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "211"
+	"mapversion" "227"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -25,6 +25,12 @@ visgroups
 		"name" "Player at bottom of map (dev only)"
 		"visgroupid" "41"
 		"color" "197 186 195"
+	}
+	visgroup
+	{
+		"name" "Debug investigation (dev only)"
+		"visgroupid" "42"
+		"color" "84 229 234"
 	}
 }
 viewsettings
@@ -90,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "211"
+	"mapversion" "227"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12148,7 +12154,7 @@ entity
 	"targetname" "assault_rallypoint3"
 	"wait" "0"
 	"yaw_speed" "0"
-	"origin" "-704 -192 -255"
+	"origin" "-704 -160 -255"
 	editor
 	{
 		"color" "247 181 82"
@@ -12177,7 +12183,7 @@ entity
 	"classname" "info_node"
 	"angles" "0 0 0"
 	"nodeid" "28"
-	"origin" "-768 0 -255"
+	"origin" "-720 -48 -255"
 	editor
 	{
 		"color" "232 219 8"
@@ -12241,7 +12247,7 @@ entity
 	"targetname" "assault_rallypoint1"
 	"wait" "0"
 	"yaw_speed" "0"
-	"origin" "-432 -96 -255"
+	"origin" "-416 -32 -255"
 	editor
 	{
 		"color" "247 181 82"
@@ -12324,6 +12330,176 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 3000]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "2828"
+		"classname" "trigger_once"
+		"origin" "-104 -104 -84"
+		"spawnflags" "1"
+		"StartDisabled" "0"
+		"targetname" "dev_trigger_investigation"
+		connections
+		{
+			"OnTrigger" "investigation_starter,Trigger,,0,-1"
+		}
+		hidden
+		{
+			solid
+			{
+				"id" "2826"
+				side
+				{
+					"id" "1254"
+					"plane" "(-128 -48 -48) (-80 -48 -48) (-80 -160 -48)"
+					vertices_plus
+					{
+						"v" "-128 -48 -48"
+						"v" "-80 -48 -48"
+						"v" "-80 -160 -48"
+						"v" "-128 -160 -48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "1253"
+					"plane" "(-128 -160 -120) (-80 -160 -120) (-80 -48 -120)"
+					vertices_plus
+					{
+						"v" "-128 -160 -120"
+						"v" "-80 -160 -120"
+						"v" "-80 -48 -120"
+						"v" "-128 -48 -120"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "1252"
+					"plane" "(-128 -48 -48) (-128 -160 -48) (-128 -160 -120)"
+					vertices_plus
+					{
+						"v" "-128 -48 -48"
+						"v" "-128 -160 -48"
+						"v" "-128 -160 -120"
+						"v" "-128 -48 -120"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "1251"
+					"plane" "(-80 -48 -120) (-80 -160 -120) (-80 -160 -48)"
+					vertices_plus
+					{
+						"v" "-80 -48 -120"
+						"v" "-80 -160 -120"
+						"v" "-80 -160 -48"
+						"v" "-80 -48 -48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "1250"
+					"plane" "(-80 -48 -48) (-128 -48 -48) (-128 -48 -120)"
+					vertices_plus
+					{
+						"v" "-80 -48 -48"
+						"v" "-128 -48 -48"
+						"v" "-128 -48 -120"
+						"v" "-80 -48 -120"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "1249"
+					"plane" "(-80 -160 -120) (-128 -160 -120) (-128 -160 -48)"
+					vertices_plus
+					{
+						"v" "-80 -160 -120"
+						"v" "-128 -160 -120"
+						"v" "-128 -160 -48"
+						"v" "-80 -160 -48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				editor
+				{
+					"color" "220 30 220"
+					"visgroupshown" "0"
+					"visgroupautoshown" "1"
+				}
+			}
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupid" "42"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[500 4000]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "2842"
+		"classname" "ai_relationship"
+		"disposition" "4"
+		"radius" "0"
+		"rank" "0"
+		"Reciprocal" "0"
+		"StartActive" "1"
+		"subject" "assaulter*"
+		"target" "!player"
+		"targetname" "dev_ignore_player"
+		"origin" "-96 -16 -127"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupid" "42"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[500 4500]"
+		}
 	}
 }
 cameras
