@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "227"
+	"mapversion" "228"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "227"
+	"mapversion" "228"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11912,7 +11912,8 @@ entity
 	connections
 	{
 		"OnFullyOpen" "fadeout,Fade,,0,-1"
-		"OnFullyOpen" "end_level,Command,disconnect,2,-1"
+		"OnFullyOpen" "end_level,Command,disconnect,3,-1"
+		"OnFullyOpen" "the_end,Display,,0,-1"
 	}
 	solid
 	{
@@ -12500,6 +12501,31 @@ hidden
 			"visgroupautoshown" "1"
 			"logicalpos" "[500 4500]"
 		}
+	}
+}
+entity
+{
+	"id" "2885"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "The End."
+	"targetname" "the_end"
+	"x" "-1"
+	"y" "-1"
+	"origin" "-1104 -88 -255"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5000]"
 	}
 }
 cameras
