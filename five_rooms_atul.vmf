@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "228"
+	"mapversion" "234"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "228"
+	"mapversion" "234"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12316,6 +12316,7 @@ entity
 {
 	"id" "2777"
 	"classname" "logic_relay"
+	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "investigation_starter"
 	connections
@@ -12323,6 +12324,7 @@ entity
 		"OnTrigger" "assaulter2,Wake,,0,-1"
 		"OnTrigger" "assaulter1,Wake,,0,-1"
 		"OnTrigger" "assaulter3,Wake,,0,-1"
+		"OnTrigger" "move_in_audio,PlaySound,,0,-1"
 	}
 	"origin" "-880 -112 -32"
 	editor
@@ -12526,6 +12528,37 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 5000]"
+	}
+}
+entity
+{
+	"id" "2900"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "npc/combine_soldier/vo/movein.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "move_in_audio"
+	"volstart" "0"
+	"origin" "-624 -8 -255"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5500]"
 	}
 }
 cameras
