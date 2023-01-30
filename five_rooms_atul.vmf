@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "266"
+	"mapversion" "267"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "266"
+	"mapversion" "267"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11099,9 +11099,10 @@ entity
 	connections
 	{
 		"OnFullyOpen" "fadeout,Fade,,0,-1"
-		"OnFullyOpen" "end_level,Command,disconnect,3,-1"
+		"OnFullyOpen" "end_level,Command,disconnect,4,-1"
 		"OnFullyOpen" "the_end,Display,,0,-1"
 		"OnFullyOpen" "end_level,Command,crosshair 0,0,-1"
+		"OnFullyOpen" "end_level,Command,crosshair 1,3.9,-1"
 	}
 	solid
 	{
