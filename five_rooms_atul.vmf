@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "288"
+	"mapversion" "289"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "288"
+	"mapversion" "289"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7287,7 +7287,7 @@ world
 				"v" "-768 64 -176"
 				"v" "-640 64 -176"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/COMBINEGLASS001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
