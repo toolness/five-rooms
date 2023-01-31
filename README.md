@@ -7,3 +7,12 @@ This is Atul's level for Steve Lee's [Level Design Game Jam: Five Rooms][ldjam].
 ### 2023-01-29 - v1
 
 Initial release.
+
+### 2023-01-30 - v2
+
+* A bunch of bug fixes.
+* Add another explosive barrel.
+* Make the courtyard's topography a bit more varied.
+* Move the button room so it has a window with a view of the courtyard.
+* Add a fourth NPC to the courtyard.
+* Use separate assault points instead of path corners for the courtyard.
