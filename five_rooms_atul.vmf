@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "285"
+	"mapversion" "286"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "285"
+	"mapversion" "286"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12470,10 +12470,11 @@ entity
 	"angles" "0 90 0"
 	"spawnflags" "0"
 	"speed" "0"
+	"target" "assault_rallypoint4"
 	"targetname" "assault_rallypoint1"
 	"wait" "0"
 	"yaw_speed" "0"
-	"origin" "-416 -32 -255"
+	"origin" "-416 -96 -255"
 	editor
 	{
 		"color" "247 181 82"
@@ -12525,10 +12526,11 @@ entity
 	"angles" "0 90 0"
 	"spawnflags" "0"
 	"speed" "0"
+	"target" "assault_rallypoint5"
 	"targetname" "assault_rallypoint2"
 	"wait" "0"
 	"yaw_speed" "0"
-	"origin" "-320 -96 -255"
+	"origin" "-352 -96 -256"
 	editor
 	{
 		"color" "247 181 82"
@@ -13904,6 +13906,64 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "3800"
+	"classname" "path_corner"
+	"angles" "0 90 0"
+	"spawnflags" "0"
+	"speed" "0"
+	"targetname" "assault_rallypoint4"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-416 0 -255"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1500]"
+	}
+}
+entity
+{
+	"id" "3805"
+	"classname" "path_corner"
+	"angles" "0 90 0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "assault_rallypoint6"
+	"targetname" "assault_rallypoint5"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-352 176 -256"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1500]"
+	}
+}
+entity
+{
+	"id" "3810"
+	"classname" "path_corner"
+	"angles" "0 90 0"
+	"spawnflags" "0"
+	"speed" "0"
+	"targetname" "assault_rallypoint6"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-512 176 -256"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1500]"
 	}
 }
 cameras
