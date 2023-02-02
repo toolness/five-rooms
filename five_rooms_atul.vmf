@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "326"
+	"mapversion" "329"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "326"
+	"mapversion" "329"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7269,7 +7269,7 @@ world
 				"v" "-768 88 -192"
 				"v" "-640 88 -192"
 			}
-			"material" "GLASS/COMBINEGLASS001A"
+			"material" "METAL/METALGRATE011A_NOPASSBULLETS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -7287,7 +7287,7 @@ world
 				"v" "-768 72 -176"
 				"v" "-640 72 -176"
 			}
-			"material" "GLASS/COMBINEGLASS001A"
+			"material" "METAL/METALGRATE011A_NOPASSBULLETS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
