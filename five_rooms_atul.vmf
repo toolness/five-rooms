@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "329"
+	"mapversion" "332"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "329"
+	"mapversion" "332"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12062,7 +12062,7 @@ entity
 	"assaulttolerance" "36"
 	"clearoncontact" "0"
 	"forcecrouch" "1"
-	"nevertimeout" "0"
+	"nevertimeout" "1"
 	"spawnflags" "0"
 	"strict" "0"
 	"targetname" "assault_assaultpoint4"
@@ -14580,7 +14580,7 @@ entity
 	"assaulttolerance" "36"
 	"clearoncontact" "0"
 	"forcecrouch" "1"
-	"nevertimeout" "0"
+	"nevertimeout" "1"
 	"spawnflags" "0"
 	"strict" "0"
 	"targetname" "assault_assaultpoint3"
