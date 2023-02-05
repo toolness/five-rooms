@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "360"
+	"mapversion" "365"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "360"
+	"mapversion" "365"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15461,6 +15461,16 @@ cordons
 		{
 			"mins" "(-237.827 -32 -176)"
 			"maxs" "(128 909.827 48)"
+		}
+	}
+	cordon
+	{
+		"name" "Main hall cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-592 32 -304)"
+			"maxs" "(-176 912 112)"
 		}
 	}
 }
