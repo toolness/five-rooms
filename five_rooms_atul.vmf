@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "424"
+	"mapversion" "425"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "424"
+	"mapversion" "425"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -16640,7 +16640,7 @@ cordons
 	cordon
 	{
 		"name" "Start room cordon"
-		"active" "0"
+		"active" "1"
 		box
 		{
 			"mins" "(-224 -336 -224)"
@@ -16660,27 +16660,27 @@ cordons
 	cordon
 	{
 		"name" "Main hall cordon"
-		"active" "0"
+		"active" "1"
 		box
 		{
 			"mins" "(-592 32 -304)"
-			"maxs" "(-176 912 112)"
+			"maxs" "(-176 912 224)"
 		}
 	}
 	cordon
 	{
 		"name" "Shotgun room cordon"
-		"active" "0"
+		"active" "1"
 		box
 		{
-			"mins" "(-912 384 -176)"
-			"maxs" "(-512 768.593 48)"
+			"mins" "(-912 384 -112)"
+			"maxs" "(-512 768.593 112)"
 		}
 	}
 	cordon
 	{
 		"name" "Button room cordon"
-		"active" "0"
+		"active" "1"
 		box
 		{
 			"mins" "(-843.523 48 -304)"
@@ -16690,7 +16690,7 @@ cordons
 	cordon
 	{
 		"name" "Courtyard cordon"
-		"active" "0"
+		"active" "1"
 		box
 		{
 			"mins" "(-1335.11 -384 -336)"
