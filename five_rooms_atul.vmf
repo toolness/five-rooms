@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "445"
+	"mapversion" "451"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "445"
+	"mapversion" "451"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -8847,7 +8847,7 @@ entity
 {
 	"id" "7483"
 	"classname" "info_npc_spawn_destination"
-	"angles" "0 0 0"
+	"angles" "0 90 0"
 	"ReuseDelay" "1"
 	"targetname" "secondroom_zombie_spawn_destination"
 	"origin" "16 240 -63"
@@ -8863,7 +8863,7 @@ entity
 {
 	"id" "7474"
 	"classname" "info_npc_spawn_destination"
-	"angles" "0 0 0"
+	"angles" "0 95 0"
 	"ReuseDelay" "1"
 	"targetname" "secondroom_zombie_spawn_destination"
 	"origin" "-160 176 -63"
@@ -8890,7 +8890,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "0"
-	"spawnflags" "2564"
+	"spawnflags" "2566"
 	"targetname" "secondroom_zombie_template"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -8911,8 +8911,8 @@ entity
 	"CriterionDistance" "2"
 	"CriterionVisibility" "1"
 	"DestinationGroup" "secondroom_zombie_spawn_destination"
-	"MaxLiveChildren" "2"
-	"MaxNPCCount" "2"
+	"MaxLiveChildren" "3"
+	"MaxNPCCount" "3"
 	"MinSpawnDistance" "0"
 	"Radius" "256"
 	"spawnflags" "0"
@@ -16826,6 +16826,22 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "7813"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 95 0"
+	"ReuseDelay" "1"
+	"targetname" "secondroom_zombie_spawn_destination"
+	"origin" "-160 672 -63"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras
