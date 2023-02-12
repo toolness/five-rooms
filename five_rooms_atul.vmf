@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "545"
+	"mapversion" "555"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "545"
+	"mapversion" "555"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14269,6 +14269,7 @@ entity
 	{
 		"OnPressed" "startroom_lockeddoor,Unlock,,0,-1"
 		"OnPressed" "startroom_lockeddoor,Press,,0.5,-1"
+		"OnPressed" "final_fast_zombie_trigger,Enable,,0,-1"
 	}
 	solid
 	{
@@ -18311,7 +18312,7 @@ entity
 	"classname" "info_node"
 	"angles" "0 0 0"
 	"nodeid" "27"
-	"origin" "-1008 -224 -191"
+	"origin" "-928 -224 -191"
 	editor
 	{
 		"color" "232 219 8"
@@ -20783,6 +20784,290 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -15768]"
+	}
+}
+entity
+{
+	"id" "9304"
+	"classname" "npc_fastzombie"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sleepstate" "3"
+	"spawnflags" "516"
+	"targetname" "final_fast_zombie"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "-1016 -88 -63"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "9315"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "53"
+	"origin" "-1023.03 -133.013 -64"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "9317"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "54"
+	"origin" "-1023.03 32 -64"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "9319"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "55"
+	"origin" "-864 32 -32"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "9323"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "56"
+	"origin" "-624 32 16"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "9329"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "57"
+	"origin" "-336 32 16"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "9332"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "58"
+	"origin" "-224 -208 16"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "9341"
+	"classname" "trigger_once"
+	"origin" "-32 32 48"
+	"spawnflags" "1"
+	"StartDisabled" "1"
+	"targetname" "final_fast_zombie_trigger"
+	connections
+	{
+		"OnTrigger" "final_fast_zombie,Wake,,0,-1"
+	}
+	solid
+	{
+		"id" "9342"
+		side
+		{
+			"id" "2106"
+			"plane" "(1.90735e-06 24 96) (-64 24 96) (-64 40 96)"
+			vertices_plus
+			{
+				"v" "1.90735e-06 24 96"
+				"v" "-64 24 96"
+				"v" "-64 40 96"
+				"v" "1.90735e-06 40 96"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0 0 0] 0.25"
+			"vaxis" "[-0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2105"
+			"plane" "(1.90735e-06 40 0) (-64 40 0) (-64 24 0)"
+			vertices_plus
+			{
+				"v" "1.90735e-06 40 0"
+				"v" "-64 40 0"
+				"v" "-64 24 0"
+				"v" "1.90735e-06 24 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0 0 0] 0.25"
+			"vaxis" "[-0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2104"
+			"plane" "(1.90735e-06 24 96) (1.90735e-06 40 96) (1.90735e-06 40 0)"
+			vertices_plus
+			{
+				"v" "1.90735e-06 24 96"
+				"v" "1.90735e-06 40 96"
+				"v" "1.90735e-06 40 0"
+				"v" "1.90735e-06 24 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2103"
+			"plane" "(-64 24 0) (-64 40 0) (-64 40 96)"
+			vertices_plus
+			{
+				"v" "-64 24 0"
+				"v" "-64 40 0"
+				"v" "-64 40 96"
+				"v" "-64 24 96"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2102"
+			"plane" "(-64 24 96) (1.90735e-06 24 96) (1.90735e-06 24 0)"
+			vertices_plus
+			{
+				"v" "-64 24 96"
+				"v" "1.90735e-06 24 96"
+				"v" "1.90735e-06 24 0"
+				"v" "-64 24 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2101"
+			"plane" "(-64 40 0) (1.90735e-06 40 0) (1.90735e-06 40 96)"
+			vertices_plus
+			{
+				"v" "-64 40 0"
+				"v" "1.90735e-06 40 0"
+				"v" "1.90735e-06 40 96"
+				"v" "-64 40 96"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "9382"
+	"classname" "npc_zombie"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sleepstate" "3"
+	"spawnflags" "516"
+	"targetname" "final_fast_zombie"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "-1016 -144 -63"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
 	}
 }
 cameras
