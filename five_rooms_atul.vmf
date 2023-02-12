@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "501"
+	"mapversion" "505"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 }
 palette_plus
 {
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "501"
+	"mapversion" "505"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5537,13 +5537,13 @@ world
 		side
 		{
 			"id" "1404"
-			"plane" "(-760 240 -144) (-576 240 -144) (-576 224 -144)"
+			"plane" "(-764 240 -144) (-576 240 -144) (-576 224 -144)"
 			vertices_plus
 			{
-				"v" "-760 240 -144"
+				"v" "-764 240 -144"
 				"v" "-576 240 -144"
 				"v" "-576 224 -144"
-				"v" "-760 224 -144"
+				"v" "-764 224 -144"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -5555,13 +5555,13 @@ world
 		side
 		{
 			"id" "1403"
-			"plane" "(-760 224 -256) (-576 224 -256) (-576 240 -256)"
+			"plane" "(-764 224 -256) (-576 224 -256) (-576 240 -256)"
 			vertices_plus
 			{
-				"v" "-760 224 -256"
+				"v" "-764 224 -256"
 				"v" "-576 224 -256"
 				"v" "-576 240 -256"
-				"v" "-760 240 -256"
+				"v" "-764 240 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -5591,13 +5591,13 @@ world
 		side
 		{
 			"id" "1401"
-			"plane" "(-760 240 -256) (-576 240 -256) (-576 240 -144)"
+			"plane" "(-764 240 -256) (-576 240 -256) (-576 240 -144)"
 			vertices_plus
 			{
-				"v" "-760 240 -256"
+				"v" "-764 240 -256"
 				"v" "-576 240 -256"
 				"v" "-576 240 -144"
-				"v" "-760 240 -144"
+				"v" "-764 240 -144"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -5609,12 +5609,12 @@ world
 		side
 		{
 			"id" "1400"
-			"plane" "(-576 224 -256) (-760 224 -256) (-760 224 -144)"
+			"plane" "(-576 224 -256) (-764 224 -256) (-764 224 -144)"
 			vertices_plus
 			{
 				"v" "-576 224 -256"
-				"v" "-760 224 -256"
-				"v" "-760 224 -144"
+				"v" "-764 224 -256"
+				"v" "-764 224 -144"
 				"v" "-576 224 -144"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
@@ -5627,13 +5627,13 @@ world
 		side
 		{
 			"id" "1399"
-			"plane" "(-760 224 -256) (-760 240 -256) (-760 240 -144)"
+			"plane" "(-764 224 -256) (-764 240 -256) (-764 240 -144)"
 			vertices_plus
 			{
-				"v" "-760 224 -256"
-				"v" "-760 240 -256"
-				"v" "-760 240 -144"
-				"v" "-760 224 -144"
+				"v" "-764 224 -256"
+				"v" "-764 240 -256"
+				"v" "-764 240 -144"
+				"v" "-764 224 -144"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -6953,13 +6953,13 @@ world
 		side
 		{
 			"id" "1416"
-			"plane" "(-760 288 -256) (-800 288 -256) (-800 272 -256)"
+			"plane" "(-764 280 -256) (-800 280 -256) (-800 272 -256)"
 			vertices_plus
 			{
-				"v" "-760 288 -256"
-				"v" "-800 288 -256"
+				"v" "-764 280 -256"
+				"v" "-800 280 -256"
 				"v" "-800 272 -256"
-				"v" "-760 272 -256"
+				"v" "-764 272 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -6971,13 +6971,13 @@ world
 		side
 		{
 			"id" "1415"
-			"plane" "(-800 272 -256) (-800 288 -256) (-800 288 -208)"
+			"plane" "(-800 272 -256) (-800 280 -256) (-800 280 -216)"
 			vertices_plus
 			{
 				"v" "-800 272 -256"
-				"v" "-800 288 -256"
-				"v" "-800 288 -208"
-				"v" "-800 272 -208"
+				"v" "-800 280 -256"
+				"v" "-800 280 -216"
+				"v" "-800 272 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 -64] 0.25"
@@ -6989,13 +6989,13 @@ world
 		side
 		{
 			"id" "1414"
-			"plane" "(-800 288 -256) (-760 288 -256) (-760 288 -208)"
+			"plane" "(-800 280 -256) (-764 280 -256) (-764 280 -216)"
 			vertices_plus
 			{
-				"v" "-800 288 -256"
-				"v" "-760 288 -256"
-				"v" "-760 288 -208"
-				"v" "-800 288 -208"
+				"v" "-800 280 -256"
+				"v" "-764 280 -256"
+				"v" "-764 280 -216"
+				"v" "-800 280 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7007,13 +7007,13 @@ world
 		side
 		{
 			"id" "1413"
-			"plane" "(-760 272 -256) (-800 272 -256) (-800 272 -208)"
+			"plane" "(-764 272 -256) (-800 272 -256) (-800 272 -216)"
 			vertices_plus
 			{
-				"v" "-760 272 -256"
+				"v" "-764 272 -256"
 				"v" "-800 272 -256"
-				"v" "-800 272 -208"
-				"v" "-760 272 -208"
+				"v" "-800 272 -216"
+				"v" "-764 272 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7025,13 +7025,13 @@ world
 		side
 		{
 			"id" "1412"
-			"plane" "(-760 288 -256) (-760 272 -256) (-760 272 -208)"
+			"plane" "(-764 280 -256) (-764 272 -256) (-764 272 -216)"
 			vertices_plus
 			{
-				"v" "-760 288 -256"
-				"v" "-760 272 -256"
-				"v" "-760 272 -208"
-				"v" "-760 288 -208"
+				"v" "-764 280 -256"
+				"v" "-764 272 -256"
+				"v" "-764 272 -216"
+				"v" "-764 280 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 -64] 0.25"
@@ -7043,13 +7043,13 @@ world
 		side
 		{
 			"id" "1411"
-			"plane" "(-760 272 -208) (-800 272 -208) (-800 288 -208)"
+			"plane" "(-764 272 -216) (-800 272 -216) (-800 280 -216)"
 			vertices_plus
 			{
-				"v" "-760 272 -208"
-				"v" "-800 272 -208"
-				"v" "-800 288 -208"
-				"v" "-760 288 -208"
+				"v" "-764 272 -216"
+				"v" "-800 272 -216"
+				"v" "-800 280 -216"
+				"v" "-764 280 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7189,13 +7189,13 @@ world
 		side
 		{
 			"id" "1417"
-			"plane" "(-800 272 -200) (-760 272 -200) (-760 240 -200)"
+			"plane" "(-800 272 -208) (-760 272 -208) (-760 240 -208)"
 			vertices_plus
 			{
-				"v" "-800 272 -200"
-				"v" "-760 272 -200"
-				"v" "-760 240 -200"
-				"v" "-800 240 -200"
+				"v" "-800 272 -208"
+				"v" "-760 272 -208"
+				"v" "-760 240 -208"
+				"v" "-800 240 -208"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7225,11 +7225,11 @@ world
 		side
 		{
 			"id" "1419"
-			"plane" "(-800 272 -200) (-800 240 -200) (-800 240 -216)"
+			"plane" "(-800 272 -208) (-800 240 -208) (-800 240 -216)"
 			vertices_plus
 			{
-				"v" "-800 272 -200"
-				"v" "-800 240 -200"
+				"v" "-800 272 -208"
+				"v" "-800 240 -208"
 				"v" "-800 240 -216"
 				"v" "-800 272 -216"
 			}
@@ -7243,13 +7243,13 @@ world
 		side
 		{
 			"id" "1420"
-			"plane" "(-760 272 -216) (-760 240 -216) (-760 240 -200)"
+			"plane" "(-760 272 -216) (-760 240 -216) (-760 240 -208)"
 			vertices_plus
 			{
 				"v" "-760 272 -216"
 				"v" "-760 240 -216"
-				"v" "-760 240 -200"
-				"v" "-760 272 -200"
+				"v" "-760 240 -208"
+				"v" "-760 272 -208"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -7261,11 +7261,11 @@ world
 		side
 		{
 			"id" "1421"
-			"plane" "(-760 272 -200) (-800 272 -200) (-800 272 -216)"
+			"plane" "(-760 272 -208) (-800 272 -208) (-800 272 -216)"
 			vertices_plus
 			{
-				"v" "-760 272 -200"
-				"v" "-800 272 -200"
+				"v" "-760 272 -208"
+				"v" "-800 272 -208"
 				"v" "-800 272 -216"
 				"v" "-760 272 -216"
 			}
@@ -7279,13 +7279,13 @@ world
 		side
 		{
 			"id" "1422"
-			"plane" "(-760 240 -216) (-800 240 -216) (-800 240 -200)"
+			"plane" "(-760 240 -216) (-800 240 -216) (-800 240 -208)"
 			vertices_plus
 			{
 				"v" "-760 240 -216"
 				"v" "-800 240 -216"
-				"v" "-800 240 -200"
-				"v" "-760 240 -200"
+				"v" "-800 240 -208"
+				"v" "-760 240 -208"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7307,12 +7307,12 @@ world
 		side
 		{
 			"id" "1446"
-			"plane" "(-800 272 -256) (-752 272 -256) (-752 224 -256)"
+			"plane" "(-800 272 -256) (-764 272 -256) (-764 224 -256)"
 			vertices_plus
 			{
 				"v" "-800 272 -256"
-				"v" "-752 272 -256"
-				"v" "-752 224 -256"
+				"v" "-764 272 -256"
+				"v" "-764 224 -256"
 				"v" "-800 224 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
@@ -7325,13 +7325,13 @@ world
 		side
 		{
 			"id" "1445"
-			"plane" "(-800 224 -272) (-752 224 -272) (-752 272 -272)"
+			"plane" "(-800 224 -264) (-764 224 -264) (-764 272 -264)"
 			vertices_plus
 			{
-				"v" "-800 224 -272"
-				"v" "-752 224 -272"
-				"v" "-752 272 -272"
-				"v" "-800 272 -272"
+				"v" "-800 224 -264"
+				"v" "-764 224 -264"
+				"v" "-764 272 -264"
+				"v" "-800 272 -264"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7343,13 +7343,13 @@ world
 		side
 		{
 			"id" "1444"
-			"plane" "(-800 272 -256) (-800 224 -256) (-800 224 -272)"
+			"plane" "(-800 272 -256) (-800 224 -256) (-800 224 -264)"
 			vertices_plus
 			{
 				"v" "-800 272 -256"
 				"v" "-800 224 -256"
-				"v" "-800 224 -272"
-				"v" "-800 272 -272"
+				"v" "-800 224 -264"
+				"v" "-800 272 -264"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -7361,13 +7361,13 @@ world
 		side
 		{
 			"id" "1443"
-			"plane" "(-752 272 -272) (-752 224 -272) (-752 224 -256)"
+			"plane" "(-764 272 -264) (-764 224 -264) (-764 224 -256)"
 			vertices_plus
 			{
-				"v" "-752 272 -272"
-				"v" "-752 224 -272"
-				"v" "-752 224 -256"
-				"v" "-752 272 -256"
+				"v" "-764 272 -264"
+				"v" "-764 224 -264"
+				"v" "-764 224 -256"
+				"v" "-764 272 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -7379,13 +7379,13 @@ world
 		side
 		{
 			"id" "1442"
-			"plane" "(-752 272 -256) (-800 272 -256) (-800 272 -272)"
+			"plane" "(-764 272 -256) (-800 272 -256) (-800 272 -264)"
 			vertices_plus
 			{
-				"v" "-752 272 -256"
+				"v" "-764 272 -256"
 				"v" "-800 272 -256"
-				"v" "-800 272 -272"
-				"v" "-752 272 -272"
+				"v" "-800 272 -264"
+				"v" "-764 272 -264"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7397,13 +7397,13 @@ world
 		side
 		{
 			"id" "1441"
-			"plane" "(-752 224 -272) (-800 224 -272) (-800 224 -256)"
+			"plane" "(-764 224 -264) (-800 224 -264) (-800 224 -256)"
 			vertices_plus
 			{
-				"v" "-752 224 -272"
-				"v" "-800 224 -272"
+				"v" "-764 224 -264"
+				"v" "-800 224 -264"
 				"v" "-800 224 -256"
-				"v" "-752 224 -256"
+				"v" "-764 224 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -7425,16 +7425,16 @@ world
 		side
 		{
 			"id" "1447"
-			"plane" "(-760 272 -208) (-744 272 -208) (-744 240 -208)"
+			"plane" "(-764 272 -216) (-756 272 -216) (-756 240 -216)"
 			vertices_plus
 			{
-				"v" "-760 272 -208"
-				"v" "-744 272 -208"
-				"v" "-744 240 -208"
-				"v" "-760 240 -208"
+				"v" "-764 272 -216"
+				"v" "-756 272 -216"
+				"v" "-756 240 -216"
+				"v" "-764 240 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 32] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7443,16 +7443,16 @@ world
 		side
 		{
 			"id" "1448"
-			"plane" "(-760 240 -256) (-744 240 -256) (-744 272 -256)"
+			"plane" "(-764 240 -256) (-756 240 -256) (-756 272 -256)"
 			vertices_plus
 			{
-				"v" "-760 240 -256"
-				"v" "-744 240 -256"
-				"v" "-744 272 -256"
-				"v" "-760 272 -256"
+				"v" "-764 240 -256"
+				"v" "-756 240 -256"
+				"v" "-756 272 -256"
+				"v" "-764 272 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 32] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7461,13 +7461,13 @@ world
 		side
 		{
 			"id" "1449"
-			"plane" "(-760 272 -208) (-760 240 -208) (-760 240 -256)"
+			"plane" "(-764 272 -216) (-764 240 -216) (-764 240 -256)"
 			vertices_plus
 			{
-				"v" "-760 272 -208"
-				"v" "-760 240 -208"
-				"v" "-760 240 -256"
-				"v" "-760 272 -256"
+				"v" "-764 272 -216"
+				"v" "-764 240 -216"
+				"v" "-764 240 -256"
+				"v" "-764 272 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -7479,13 +7479,13 @@ world
 		side
 		{
 			"id" "1450"
-			"plane" "(-744 272 -256) (-744 240 -256) (-744 240 -208)"
+			"plane" "(-756 272 -256) (-756 240 -256) (-756 240 -216)"
 			vertices_plus
 			{
-				"v" "-744 272 -256"
-				"v" "-744 240 -256"
-				"v" "-744 240 -208"
-				"v" "-744 272 -208"
+				"v" "-756 272 -256"
+				"v" "-756 240 -256"
+				"v" "-756 240 -216"
+				"v" "-756 272 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -7497,16 +7497,16 @@ world
 		side
 		{
 			"id" "1451"
-			"plane" "(-744 272 -208) (-760 272 -208) (-760 272 -256)"
+			"plane" "(-756 272 -216) (-764 272 -216) (-764 272 -256)"
 			vertices_plus
 			{
-				"v" "-744 272 -208"
-				"v" "-760 272 -208"
-				"v" "-760 272 -256"
-				"v" "-744 272 -256"
+				"v" "-756 272 -216"
+				"v" "-764 272 -216"
+				"v" "-764 272 -256"
+				"v" "-756 272 -256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 32] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7515,16 +7515,16 @@ world
 		side
 		{
 			"id" "1452"
-			"plane" "(-744 240 -256) (-760 240 -256) (-760 240 -208)"
+			"plane" "(-756 240 -256) (-764 240 -256) (-764 240 -216)"
 			vertices_plus
 			{
-				"v" "-744 240 -256"
-				"v" "-760 240 -256"
-				"v" "-760 240 -208"
-				"v" "-744 240 -208"
+				"v" "-756 240 -256"
+				"v" "-764 240 -256"
+				"v" "-764 240 -216"
+				"v" "-756 240 -216"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 32] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -13441,27 +13441,24 @@ hidden
 		}
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "4535"
+	"classname" "item_suit"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-384 272 -132"
+	editor
 	{
-		"id" "4535"
-		"classname" "item_suit"
-		"angles" "0 180 0"
-		"disableshadows" "0"
-		"fademaxdist" "0"
-		"fademindist" "-1"
-		"fadescale" "1"
-		"spawnflags" "0"
-		"origin" "-384 272 -132"
-		editor
-		{
-			"color" "0 0 200"
-			"visgroupid" "41"
-			"visgroupshown" "0"
-			"visgroupautoshown" "1"
-			"logicalpos" "[0 -6768]"
-		}
+		"color" "0 0 200"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
 	}
 }
 entity
@@ -13573,23 +13570,26 @@ entity
 		"logicalpos" "[0 1000]"
 	}
 }
-entity
+hidden
 {
-	"id" "3072"
-	"classname" "logic_auto"
-	"spawnflags" "1"
-	connections
+	entity
 	{
-		"OnMapSpawn" "necrotics_inbound,PlaySound,,0,-1"
-	}
-	"origin" "-32 608 -63"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
+		"id" "3072"
+		"classname" "logic_auto"
+		"spawnflags" "1"
+		connections
+		{
+			"OnMapSpawn" "necrotics_inbound,PlaySound,,0,-1"
+		}
+		"origin" "-32 608 -63"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupid" "19"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
 	}
 }
 entity
@@ -13607,36 +13607,39 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
-entity
+hidden
 {
-	"id" "3064"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "npc/combine_soldier/vo/necroticsinbound.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "necrotics_inbound"
-	"volstart" "0"
-	"origin" "-72 640 -63"
-	editor
+	entity
 	{
-		"color" "220 30 220"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"id" "3064"
+		"classname" "ambient_generic"
+		"cspinup" "0"
+		"fadeinsecs" "0"
+		"fadeoutsecs" "0"
+		"health" "10"
+		"lfomodpitch" "0"
+		"lfomodvol" "0"
+		"lforate" "0"
+		"lfotype" "0"
+		"message" "npc/combine_soldier/vo/necroticsinbound.wav"
+		"pitch" "100"
+		"pitchstart" "100"
+		"preset" "0"
+		"radius" "1250"
+		"spawnflags" "49"
+		"spindown" "0"
+		"spinup" "0"
+		"targetname" "necrotics_inbound"
+		"volstart" "0"
+		"origin" "-72 640 -63"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupid" "19"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
 	}
 }
 entity
@@ -14426,32 +14429,35 @@ entity
 		"logicalpos" "[500 1500]"
 	}
 }
-entity
+hidden
 {
-	"id" "674"
-	"classname" "npc_zombie"
-	"angles" "0 90 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "516"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-64 240 -64"
-	editor
+	entity
 	{
-		"color" "0 200 200"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
+		"id" "674"
+		"classname" "npc_zombie"
+		"angles" "0 90 0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "0"
+		"hintlimiting" "0"
+		"ignoreunseenenemies" "0"
+		"physdamagescale" "1.0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"sleepstate" "0"
+		"spawnflags" "516"
+		"wakeradius" "0"
+		"wakesquad" "0"
+		"origin" "-64 240 -64"
+		editor
+		{
+			"color" "0 200 200"
+			"visgroupid" "19"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 7500]"
+		}
 	}
 }
 entity
@@ -15122,60 +15128,66 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
-entity
+hidden
 {
-	"id" "664"
-	"classname" "npc_zombie"
-	"angles" "0 135 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "516"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "32 320 -64"
-	editor
+	entity
 	{
-		"color" "0 200 200"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
+		"id" "664"
+		"classname" "npc_zombie"
+		"angles" "0 135 0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "0"
+		"hintlimiting" "0"
+		"ignoreunseenenemies" "0"
+		"physdamagescale" "1.0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"sleepstate" "0"
+		"spawnflags" "516"
+		"wakeradius" "0"
+		"wakesquad" "0"
+		"origin" "32 320 -64"
+		editor
+		{
+			"color" "0 200 200"
+			"visgroupid" "19"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 7500]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "672"
-	"classname" "npc_zombie_torso"
-	"angles" "0 75 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "516"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-64 528 -64"
-	editor
+	entity
 	{
-		"color" "0 200 200"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
+		"id" "672"
+		"classname" "npc_zombie_torso"
+		"angles" "0 75 0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "0"
+		"hintlimiting" "0"
+		"ignoreunseenenemies" "0"
+		"physdamagescale" "1.0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"sleepstate" "0"
+		"spawnflags" "516"
+		"wakeradius" "0"
+		"wakesquad" "0"
+		"origin" "-64 528 -64"
+		editor
+		{
+			"color" "0 200 200"
+			"visgroupid" "19"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 7500]"
+		}
 	}
 }
 entity
@@ -16210,36 +16222,39 @@ entity
 		"logicalpos" "[0 5000]"
 	}
 }
-entity
+hidden
 {
-	"id" "656"
-	"classname" "npc_metropolice"
-	"additionalequipment" "weapon_pistol"
-	"angles" "0 270 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"manhacks" "0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "516"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"weapondrawn" "0"
-	"origin" "-48.3714 775.443 -64"
-	editor
+	entity
 	{
-		"color" "0 200 200"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
+		"id" "656"
+		"classname" "npc_metropolice"
+		"additionalequipment" "weapon_pistol"
+		"angles" "0 270 0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "0"
+		"hintlimiting" "0"
+		"ignoreunseenenemies" "0"
+		"manhacks" "0"
+		"physdamagescale" "1.0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"sleepstate" "0"
+		"spawnflags" "516"
+		"waitingtorappel" "No"
+		"wakeradius" "0"
+		"wakesquad" "0"
+		"weapondrawn" "0"
+		"origin" "-48.3714 775.443 -64"
+		editor
+		{
+			"color" "0 200 200"
+			"visgroupid" "19"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 7500]"
+		}
 	}
 }
 entity
@@ -17427,23 +17442,20 @@ entity
 		"logicalpos" "[0 5000]"
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "2352"
+	"classname" "info_player_start"
+	"angles" "0 180 0"
+	"spawnflags" "1"
+	"origin" "-384 272 -255"
+	editor
 	{
-		"id" "2352"
-		"classname" "info_player_start"
-		"angles" "0 180 0"
-		"spawnflags" "1"
-		"origin" "-384 272 -255"
-		editor
-		{
-			"color" "0 255 0"
-			"visgroupid" "41"
-			"visgroupshown" "0"
-			"visgroupautoshown" "1"
-			"logicalpos" "[0 -6768]"
-		}
+		"color" "0 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
 	}
 }
 entity
@@ -17683,26 +17695,23 @@ entity
 		"logicalpos" "[0 -14768]"
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "4542"
+	"classname" "weapon_shotgun"
+	"angles" "0 180 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-384 272 -132"
+	editor
 	{
-		"id" "4542"
-		"classname" "weapon_shotgun"
-		"angles" "0 180 0"
-		"fademaxdist" "0"
-		"fademindist" "-1"
-		"fadescale" "1"
-		"spawnflags" "0"
-		"origin" "-384 272 -132"
-		editor
-		{
-			"color" "0 0 200"
-			"visgroupid" "41"
-			"visgroupshown" "0"
-			"visgroupautoshown" "1"
-			"logicalpos" "[0 -6768]"
-		}
+		"color" "0 0 200"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
 	}
 }
 entity
@@ -17732,7 +17741,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "-768 256 -255"
+	"origin" "-781.63 255.135 -255"
 	editor
 	{
 		"color" "0 0 200"
@@ -18260,39 +18269,42 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
-entity
+hidden
 {
-	"id" "944"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_shotgun"
-	"angles" "0 255 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "3"
-	"spawnflags" "644"
-	"tacticalvariant" "0"
-	"targetname" "combine2"
-	"usemarch" "0"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-432 160 -256"
-	editor
+	entity
 	{
-		"color" "0 200 200"
-		"visgroupid" "40"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 16000]"
+		"id" "944"
+		"classname" "npc_combine_s"
+		"additionalequipment" "weapon_shotgun"
+		"angles" "0 255 0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "0"
+		"hintlimiting" "0"
+		"ignoreunseenenemies" "0"
+		"model" "models/combine_soldier.mdl"
+		"NumGrenades" "5"
+		"physdamagescale" "1.0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"sleepstate" "3"
+		"spawnflags" "644"
+		"tacticalvariant" "0"
+		"targetname" "combine2"
+		"usemarch" "0"
+		"waitingtorappel" "No"
+		"wakeradius" "0"
+		"wakesquad" "0"
+		"origin" "-432 160 -256"
+		editor
+		{
+			"color" "0 200 200"
+			"visgroupid" "40"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 16000]"
+		}
 	}
 }
 entity
@@ -18425,39 +18437,42 @@ entity
 		"logicalpos" "[0 4000]"
 	}
 }
-entity
+hidden
 {
-	"id" "1075"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_shotgun"
-	"angles" "0 270 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "3"
-	"spawnflags" "644"
-	"tacticalvariant" "0"
-	"targetname" "combine1"
-	"usemarch" "0"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-336 160 -256"
-	editor
+	entity
 	{
-		"color" "0 200 200"
-		"visgroupid" "40"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 16000]"
+		"id" "1075"
+		"classname" "npc_combine_s"
+		"additionalequipment" "weapon_shotgun"
+		"angles" "0 270 0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "0"
+		"hintlimiting" "0"
+		"ignoreunseenenemies" "0"
+		"model" "models/combine_soldier.mdl"
+		"NumGrenades" "5"
+		"physdamagescale" "1.0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"sleepstate" "3"
+		"spawnflags" "644"
+		"tacticalvariant" "0"
+		"targetname" "combine1"
+		"usemarch" "0"
+		"waitingtorappel" "No"
+		"wakeradius" "0"
+		"wakesquad" "0"
+		"origin" "-336 160 -256"
+		editor
+		{
+			"color" "0 200 200"
+			"visgroupid" "40"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 16000]"
+		}
 	}
 }
 entity
