@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "568"
+	"mapversion" "571"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "568"
+	"mapversion" "571"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12456,20 +12456,20 @@ entity
 }
 entity
 {
-	"id" "9486"
-	"classname" "item_box_buckshot"
+	"id" "5943"
+	"classname" "item_battery"
 	"angles" "0 0 0"
 	"disableshadows" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "-240 36 1"
+	"origin" "-392 832 -255"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8768]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -16049,7 +16049,7 @@ entity
 	"classname" "info_node"
 	"angles" "0 0 0"
 	"nodeid" "57"
-	"origin" "-336 32 16"
+	"origin" "-368 32 16"
 	editor
 	{
 		"color" "232 219 8"
@@ -21836,20 +21836,42 @@ entity
 }
 entity
 {
-	"id" "5943"
-	"classname" "item_battery"
-	"angles" "0 0 0"
+	"id" "9817"
+	"classname" "item_item_crate"
+	"angles" "0 15 0"
+	"CrateAppearance" "0"
+	"CrateType" "0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
 	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "-392 832 -255"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"ItemClass" "item_dynamic_resupply"
+	"ItemCount" "1"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
+	"origin" "-320.218 27.7118 1"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
