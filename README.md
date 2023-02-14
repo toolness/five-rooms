@@ -16,3 +16,7 @@ Initial release.
 * Move the button room so it has a window with a view of the courtyard.
 * Add a fourth NPC to the courtyard.
 * Use separate assault points instead of path corners for the courtyard.
+
+### 2023-02-13 - v3
+
+* Extended the level to be about twice as long (but without any new rooms).
