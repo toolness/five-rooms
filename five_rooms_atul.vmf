@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "674"
+	"mapversion" "680"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "674"
+	"mapversion" "680"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13882,6 +13882,8 @@ entity
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
+	"pattern" "mmmmmmmmmmmmmmmmaaammmmmm"
+	"spawnflags" "0"
 	"style" "0"
 	"targetname" "secondroom_light"
 	"origin" "40 208.643 103.834"
@@ -14897,9 +14899,11 @@ entity
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
-	"style" "0"
+	"pattern" "mmmmmmmmmmmmmmmmaaammmmmm"
+	"spawnflags" "0"
+	"style" "1"
 	"targetname" "secondroom_light"
-	"origin" "40 680.643 103.834"
+	"origin" "32 680.643 103.834"
 	editor
 	{
 		"color" "217 150 0"
@@ -20907,11 +20911,12 @@ entity
 {
 	"id" "7394"
 	"classname" "logic_relay"
+	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "secondroom_light_switch"
 	connections
 	{
-		"OnTrigger" "secondroom_light_DISABLE_FOR_NOW,TurnOff,,0,-1"
+		"OnTrigger" "secondroom_light,SetPattern,mmamammmmammamamaaamammma,0,-1"
 		"OnTrigger" "secondroom_lightbulb_secondroom_light_DISABLE_FOR_NOW,Skin,0,0,-1"
 	}
 	"origin" "-9 272 35.4815"
