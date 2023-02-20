@@ -26,3 +26,11 @@ Initial release.
 * NPCs at the end don't just spawn in anymore.
 * Added music.
 * Various bug fixes and quality of life improvements from playtesting.
+
+### 2023-02-20 - v5
+
+* Fix broken crate in courtard.
+* Add player clip brushes on stairs.
+* Doomed metropolice shouldn't shoot at slumped zombies.
+* Various level optimizations.
+* Added CC0 license.
