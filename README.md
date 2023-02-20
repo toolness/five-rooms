@@ -20,3 +20,9 @@ Initial release.
 ### 2023-02-13 - v3
 
 * Extended the level to be about twice as long (but without any new rooms).
+
+### 2023-02-20 - v4
+
+* NPCs at the end don't just spawn in anymore.
+* Added music.
+* Various bug fixes and quality of life improvements from playtesting.
