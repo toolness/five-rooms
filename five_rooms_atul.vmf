@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "756"
+	"mapversion" "763"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "756"
+	"mapversion" "763"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -22693,6 +22693,7 @@ entity
 	"rendermode" "0"
 	"sleepstate" "0"
 	"spawnflags" "516"
+	"targetname" "doomed_metropolice"
 	"waitingtorappel" "No"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -22701,7 +22702,6 @@ entity
 	editor
 	{
 		"color" "0 200 200"
-		"visgroupid" "19"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 7500]"
@@ -26644,6 +26644,28 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "13713"
+	"classname" "ai_relationship"
+	"disposition" "4"
+	"radius" "0"
+	"rank" "0"
+	"Reciprocal" "1"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "doomed_metropolice"
+	"target" "slumped_zombie_*"
+	"targetname" "doomed_metropolice_dont_shoot_at_slumped_zombies"
+	"origin" "24 808 -63"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10768]"
 	}
 }
 cameras
