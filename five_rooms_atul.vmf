@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "849"
+	"mapversion" "850"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "849"
+	"mapversion" "850"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -607,11 +607,11 @@ world
 				"v" "-192 -256 192"
 				"v" "-192 -256 96"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "PLASTER/PLASTERWALL030A"
+			"uaxis" "[0 1 0 365.714] 0.4375"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -843,11 +843,11 @@ world
 				"v" "-192 -192 -256"
 				"v" "-192 -192 0"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "PLASTER/PLASTERWALL030A"
+			"uaxis" "[0 1 0 365.714] 0.4375"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -943,11 +943,11 @@ world
 				"v" "-192 -176 -0"
 				"v" "-192 -176 96"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "PLASTER/PLASTERWALL030A"
+			"uaxis" "[0 1 0 365.714] 0.4375"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -1061,11 +1061,11 @@ world
 				"v" "-192 0 0"
 				"v" "-192 0 96"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 -0] 0.25"
+			"material" "PLASTER/PLASTERWALL030A"
+			"uaxis" "[0 1 0 365.714] 0.4375"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -7451,11 +7451,11 @@ world
 				"v" "-192 0 0"
 				"v" "-192 -192 0"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "PLASTER/PLASTERWALL030A"
+			"uaxis" "[0 1 0 365.714] 0.4375"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
@@ -13677,11 +13677,11 @@ world
 				"v" "-192 0 -256"
 				"v" "-192 64 -256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "PLASTER/PLASTERWALL030A"
+			"uaxis" "[0 1 0 365.714] 0.4375"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
