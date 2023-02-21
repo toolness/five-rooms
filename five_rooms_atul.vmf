@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "801"
+	"mapversion" "810"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "801"
+	"mapversion" "810"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14761,6 +14761,124 @@ world
 	}
 	solid
 	{
+		"id" "14601"
+		side
+		{
+			"id" "3058"
+			"plane" "(-160 32 160) (-160 64 160) (64 64 160)"
+			vertices_plus
+			{
+				"v" "-160 32 160"
+				"v" "-160 64 160"
+				"v" "64 64 160"
+				"v" "64 32 160"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3057"
+			"plane" "(-160 64 128) (-160 32 128) (64 32 128)"
+			vertices_plus
+			{
+				"v" "-160 64 128"
+				"v" "-160 32 128"
+				"v" "64 32 128"
+				"v" "64 64 128"
+			}
+			"material" "WOOD/WOODFLOOR005A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3056"
+			"plane" "(-160 32 128) (-160 64 128) (-160 64 160)"
+			vertices_plus
+			{
+				"v" "-160 32 128"
+				"v" "-160 64 128"
+				"v" "-160 64 160"
+				"v" "-160 32 160"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3055"
+			"plane" "(64 64 128) (64 32 128) (64 32 160)"
+			vertices_plus
+			{
+				"v" "64 64 128"
+				"v" "64 32 128"
+				"v" "64 32 160"
+				"v" "64 64 160"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3054"
+			"plane" "(64 32 128) (-160 32 128) (-160 32 160)"
+			vertices_plus
+			{
+				"v" "64 32 128"
+				"v" "-160 32 128"
+				"v" "-160 32 160"
+				"v" "64 32 160"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3053"
+			"plane" "(-160 64 128) (64 64 128) (64 64 160)"
+			vertices_plus
+			{
+				"v" "-160 64 128"
+				"v" "64 64 128"
+				"v" "64 64 160"
+				"v" "-160 64 160"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 207 212"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "14558"
 		side
 		{
@@ -14995,140 +15113,12 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "14601"
-		side
-		{
-			"id" "3058"
-			"plane" "(-160 32 160) (-160 64 160) (64 64 160)"
-			vertices_plus
-			{
-				"v" "-160 32 160"
-				"v" "-160 64 160"
-				"v" "64 64 160"
-				"v" "64 32 160"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3057"
-			"plane" "(-160 64 128) (-160 32 128) (64 32 128)"
-			vertices_plus
-			{
-				"v" "-160 64 128"
-				"v" "-160 32 128"
-				"v" "64 32 128"
-				"v" "64 64 128"
-			}
-			"material" "WOOD/WOODFLOOR005A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3056"
-			"plane" "(-160 32 128) (-160 64 128) (-160 64 160)"
-			vertices_plus
-			{
-				"v" "-160 32 128"
-				"v" "-160 64 128"
-				"v" "-160 64 160"
-				"v" "-160 32 160"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3055"
-			"plane" "(64 64 128) (64 32 128) (64 32 160)"
-			vertices_plus
-			{
-				"v" "64 64 128"
-				"v" "64 32 128"
-				"v" "64 32 160"
-				"v" "64 64 160"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3054"
-			"plane" "(64 32 128) (-160 32 128) (-160 32 160)"
-			vertices_plus
-			{
-				"v" "64 32 128"
-				"v" "-160 32 128"
-				"v" "-160 32 160"
-				"v" "64 32 160"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3053"
-			"plane" "(-160 64 128) (64 64 128) (64 64 160)"
-			vertices_plus
-			{
-				"v" "-160 64 128"
-				"v" "64 64 128"
-				"v" "64 64 160"
-				"v" "-160 64 160"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 207 212"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	group
 	{
 		"id" "9805"
 		editor
 		{
 			"color" "187 200 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "630"
-		editor
-		{
-			"color" "217 150 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -15179,16 +15169,6 @@ world
 		editor
 		{
 			"color" "170 203 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "7417"
-		editor
-		{
-			"color" "217 150 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -15884,72 +15864,27 @@ entity
 }
 entity
 {
-	"id" "631"
-	"classname" "prop_dynamic"
-	"angles" "0 0 0"
-	"DisableBoneFollowers" "0"
+	"id" "14621"
+	"classname" "point_spotlight"
+	"angles" "11 98 0"
 	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
+	"HDRColorScale" "1.0"
 	"maxdxlevel" "0"
-	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/props_interiors/lightbulb01a.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
-	"rendercolor" "255 255 255"
+	"rendercolor" "255 245 145"
 	"renderfx" "0"
 	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "1"
-	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "secondroom_lightbulb"
-	"origin" "40 183.357 82.5841"
+	"spawnflags" "3"
+	"spotlightlength" "500"
+	"spotlightwidth" "50"
+	"origin" "55.4992 40 122.182"
 	editor
 	{
-		"color" "217 150 0"
-		"groupid" "630"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "635"
-	"classname" "light"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
-	"_light" "215 225 235 50"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
-	"pattern" "mmmmmmmmmmmmmmmmaaammmmmm"
-	"spawnflags" "0"
-	"style" "0"
-	"targetname" "secondroom_light"
-	"origin" "40 208.643 103.834"
-	editor
-	{
-		"color" "217 150 0"
-		"groupid" "630"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
+		"logicalpos" "[0 3000]"
 	}
 }
 entity
@@ -16907,72 +16842,27 @@ entity
 }
 entity
 {
-	"id" "7418"
-	"classname" "prop_dynamic"
-	"angles" "0 0 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
+	"id" "14607"
+	"classname" "prop_static"
+	"angles" "11 98 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_interiors/lightbulb01a.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "1"
-	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "secondroom_lightbulb"
-	"origin" "40 655.357 82.5841"
+	"ignorenormals" "0"
+	"model" "models/props_wasteland/light_spotlight02_lamp.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "55.9245 39.6277 121.842"
 	editor
 	{
-		"color" "217 150 0"
-		"groupid" "7417"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "7422"
-	"classname" "light"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
-	"_light" "215 225 235 50"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
-	"pattern" "mmmmmmmmmmmmmmmmaaammmmmm"
-	"spawnflags" "0"
-	"style" "1"
-	"targetname" "secondroom_light"
-	"origin" "32 680.643 103.834"
-	editor
-	{
-		"color" "217 150 0"
-		"groupid" "7417"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
+		"logicalpos" "[6000 -12268]"
 	}
 }
 entity
@@ -25597,27 +25487,6 @@ entity
 }
 entity
 {
-	"id" "7394"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "secondroom_light_switch"
-	connections
-	{
-		"OnTrigger" "secondroom_light,SetPattern,mmamammmmammamamaaamammma,0,-1"
-		"OnTrigger" "secondroom_lightbulb_secondroom_light_DISABLE_FOR_NOW,Skin,0,0,-1"
-	}
-	"origin" "-9 272 35.4815"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "7728"
 	"classname" "keyframe_rope"
 	"angles" "0 0 0"
@@ -26739,7 +26608,6 @@ entity
 	{
 		"OnPressed" "relay_combineshieldwall1_off,Trigger,,0,-1"
 		"OnPressed" "investigation_starter,Trigger,,1,-1"
-		"OnPressed" "secondroom_light_switch,Trigger,,0,-1"
 		"OnPressed" "secondroom_trigger_zombie_awakening,Enable,,0,-1"
 		"OnPressed" "shotgun_room_door,Open,,0,-1"
 		"OnPressed" "rapell_trigger,Enable,,0,-1"
@@ -27089,6 +26957,36 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1500]"
+	}
+}
+entity
+{
+	"id" "14662"
+	"classname" "light_spot"
+	"_cone" "35"
+	"_constant_attn" "20000"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "25"
+	"_light" "255 245 145 400"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "-18 99 0"
+	"pitch" "-18"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "55.4079 39.374 122.113"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
 	}
 }
 cameras
