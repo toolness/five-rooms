@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "920"
+	"mapversion" "934"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "920"
+	"mapversion" "934"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -16498,8 +16498,9 @@ entity
 	{
 		"OnTrigger" "final_fast_zombie,Wake,,0,-1"
 		"OnTrigger" "final_fast_zombie_aiscripted_schedule,StartSchedule,,0.5,-1"
-		"OnTrigger" "final_zombie,Wake,,0,-1"
-		"OnTrigger" "final_zombie_aiscripted_schedule,StartSchedule,,0.5,-1"
+		"OnTrigger" "final_zombie,Wake,,4,-1"
+		"OnTrigger" "final_zombie_aiscripted_schedule,StartSchedule,,4.5,-1"
+		"OnTrigger" "final_zombies_not_attacked_by_assaulters,RevertToDefaultRelationship,,0,-1"
 	}
 	solid
 	{
@@ -20737,8 +20738,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "3"
-	"spawnflags" "518"
-	"target" "final_fast_zombie_path_corner"
+	"spawnflags" "646"
 	"targetname" "final_fast_zombie"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -22352,8 +22352,8 @@ entity
 entity
 {
 	"id" "10769"
-	"classname" "npc_zombie"
-	"angles" "0 0 0"
+	"classname" "npc_fastzombie"
+	"angles" "0 270 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"hintlimiting" "0"
@@ -22364,8 +22364,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "3"
-	"spawnflags" "518"
-	"target" "final_zombie_path_corner"
+	"spawnflags" "646"
 	"targetname" "final_zombie"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -23540,7 +23539,7 @@ entity
 	"interruptability" "0"
 	"m_flRadius" "0"
 	"m_iszEntity" "final_zombie"
-	"schedule" "1"
+	"schedule" "2"
 	"spawnflags" "4"
 	"targetname" "final_zombie_aiscripted_schedule"
 	"origin" "-1007.03 35.9544 -56"
@@ -23561,7 +23560,7 @@ entity
 	"targetname" "final_zombie_path_corner"
 	"wait" "0"
 	"yaw_speed" "0"
-	"origin" "-1028.09 -86.9576 8"
+	"origin" "-800 -192 8"
 	editor
 	{
 		"color" "247 181 82"
@@ -28268,6 +28267,27 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "25014"
+	"classname" "ai_relationship"
+	"disposition" "4"
+	"radius" "0"
+	"rank" "0"
+	"Reciprocal" "1"
+	"StartActive" "1"
+	"subject" "final_*"
+	"target" "assaulter*"
+	"targetname" "final_zombies_not_attacked_by_assaulters"
+	"origin" "-1019 61 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
 	}
 }
 cameras
