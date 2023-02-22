@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "883"
+	"mapversion" "884"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "883"
+	"mapversion" "884"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5989,9 +5989,9 @@ world
 				"v" "-640 64 -256"
 				"v" "-640 96 -256"
 			}
-			"material" "PROPS/TARPAPERROOF002A"
-			"uaxis" "[0 1 0 0] 0.0625"
-			"vaxis" "[0 0 -1 170.667] 0.1875"
+			"material" "BRICK/BRICKWALL049A"
+			"uaxis" "[0 1 0 368] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6343,9 +6343,9 @@ world
 				"v" "-676 64 -192"
 				"v" "-676 96 -192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
+			"material" "BRICK/BRICKWALL049A"
+			"uaxis" "[0 1 0 368] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7669,7 +7669,7 @@ world
 				"v" "-768 96 -256"
 				"v" "-640 96 -256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"material" "CONCRETE/CONCRETEFLOOR013A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -7805,8 +7805,8 @@ world
 				"v" "-676 64 -216"
 				"v" "-640 64 -216"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
+			"material" "CONCRETE/CONCRETEFLOOR008A"
+			"uaxis" "[1 0 0 0] 0.125"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
