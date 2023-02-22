@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "910"
+	"mapversion" "920"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "2"
 }
 palette_plus
 {
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "910"
+	"mapversion" "920"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -19842,7 +19842,7 @@ entity
 	"NoWind" "0"
 	"PositionInterpolator" "2"
 	"RopeMaterial" "cable/cable.vmt"
-	"Slack" "65"
+	"Slack" "100"
 	"Subdiv" "2"
 	"targetname" "startroom_rope_2"
 	"TextureScale" "1"
@@ -19898,7 +19898,7 @@ entity
 	"locked_sentence" "0"
 	"locked_sound" "0"
 	"movedir" "0 270 0"
-	"origin" "-400 -254 -176"
+	"origin" "-396 -253 -178"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -19914,6 +19914,8 @@ entity
 	{
 		"OnPressed" "startroom_lockeddoor,Unlock,,0,-1"
 		"OnPressed" "startroom_lockeddoor,Open,,0.5,-1"
+		"OnPressed" "startroom_lockeddoor_button_prop,SetAnimation,turn_ON,0,-1"
+		"OnPressed" "startroom_lockeddoor_button_glow,HideSprite,,0.25,-1"
 	}
 	solid
 	{
@@ -19921,15 +19923,15 @@ entity
 		side
 		{
 			"id" "1782"
-			"plane" "(-408 -252 -168) (-392 -252 -168) (-392 -256 -168)"
+			"plane" "(-402 -250 -166) (-390 -250 -166) (-390 -256 -166)"
 			vertices_plus
 			{
-				"v" "-408 -252 -168"
-				"v" "-392 -252 -168"
-				"v" "-392 -256 -168"
-				"v" "-408 -256 -168"
+				"v" "-402 -250 -166"
+				"v" "-390 -250 -166"
+				"v" "-390 -256 -166"
+				"v" "-402 -256 -166"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -56] 0.25"
 			"rotation" "0"
@@ -19939,15 +19941,15 @@ entity
 		side
 		{
 			"id" "1781"
-			"plane" "(-408 -256 -184) (-392 -256 -184) (-392 -252 -184)"
+			"plane" "(-402 -256 -190) (-390 -256 -190) (-390 -250 -190)"
 			vertices_plus
 			{
-				"v" "-408 -256 -184"
-				"v" "-392 -256 -184"
-				"v" "-392 -252 -184"
-				"v" "-408 -252 -184"
+				"v" "-402 -256 -190"
+				"v" "-390 -256 -190"
+				"v" "-390 -250 -190"
+				"v" "-402 -250 -190"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -56] 0.25"
 			"rotation" "0"
@@ -19957,17 +19959,17 @@ entity
 		side
 		{
 			"id" "1780"
-			"plane" "(-408 -252 -168) (-408 -256 -168) (-408 -256 -184)"
+			"plane" "(-402 -250 -166) (-402 -256 -166) (-402 -256 -190)"
 			vertices_plus
 			{
-				"v" "-408 -252 -168"
-				"v" "-408 -256 -168"
-				"v" "-408 -256 -184"
-				"v" "-408 -252 -184"
+				"v" "-402 -250 -166"
+				"v" "-402 -256 -166"
+				"v" "-402 -256 -190"
+				"v" "-402 -250 -190"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 56] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -19975,17 +19977,17 @@ entity
 		side
 		{
 			"id" "1779"
-			"plane" "(-392 -252 -184) (-392 -256 -184) (-392 -256 -168)"
+			"plane" "(-390 -250 -190) (-390 -256 -190) (-390 -256 -166)"
 			vertices_plus
 			{
-				"v" "-392 -252 -184"
-				"v" "-392 -256 -184"
-				"v" "-392 -256 -168"
-				"v" "-392 -252 -168"
+				"v" "-390 -250 -190"
+				"v" "-390 -256 -190"
+				"v" "-390 -256 -166"
+				"v" "-390 -250 -166"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 56] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -19993,17 +19995,17 @@ entity
 		side
 		{
 			"id" "1778"
-			"plane" "(-392 -252 -168) (-408 -252 -168) (-408 -252 -184)"
+			"plane" "(-390 -250 -166) (-402 -250 -166) (-402 -250 -190)"
 			vertices_plus
 			{
-				"v" "-392 -252 -168"
-				"v" "-408 -252 -168"
-				"v" "-408 -252 -184"
-				"v" "-392 -252 -184"
+				"v" "-390 -250 -166"
+				"v" "-402 -250 -166"
+				"v" "-402 -250 -190"
+				"v" "-390 -250 -190"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -20011,17 +20013,17 @@ entity
 		side
 		{
 			"id" "1777"
-			"plane" "(-392 -256 -184) (-408 -256 -184) (-408 -256 -168)"
+			"plane" "(-390 -256 -190) (-402 -256 -190) (-402 -256 -166)"
 			vertices_plus
 			{
-				"v" "-392 -256 -184"
-				"v" "-408 -256 -184"
-				"v" "-408 -256 -168"
-				"v" "-392 -256 -168"
+				"v" "-390 -256 -190"
+				"v" "-402 -256 -190"
+				"v" "-402 -256 -166"
+				"v" "-390 -256 -166"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -21626,7 +21628,7 @@ entity
 	"TextureScale" "1"
 	"Type" "0"
 	"Width" "2"
-	"origin" "-390.462 -255.21 -172"
+	"origin" "-392 -254 -172"
 	editor
 	{
 		"color" "220 30 220"
@@ -28192,6 +28194,74 @@ entity
 	"spawnflags" "1"
 	"targetname" "buttonroom_button_glow"
 	"origin" "-791.702 154.779 -192.518"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "24853"
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_mining/freightelevatorbutton02.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "startroom_lockeddoor_button_prop"
+	"origin" "-392 -256 -188"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24956"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.vmt"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.1"
+	"spawnflags" "1"
+	"targetname" "startroom_lockeddoor_button_glow"
+	"origin" "-396 -252 -180"
 	editor
 	{
 		"color" "20 140 20"
