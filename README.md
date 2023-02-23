@@ -34,3 +34,8 @@ Initial release.
 * Doomed metropolice shouldn't shoot at slumped zombies.
 * Various level optimizations.
 * Added CC0 license.
+
+### 2023-02-22 - v6
+
+* Added textures and improved lighting.
+* Tweaked encounters.
