@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "968"
+	"mapversion" "972"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "968"
+	"mapversion" "972"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30617,6 +30617,81 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "26299"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/plaster007a"
+	"origin" "-208.228 -256 47.8386"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "26339"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/plaster019a"
+	"origin" "-1024 -256 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "26384"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/decalplaster001a"
+	"origin" "-907.044 -256 -4.65118"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "26562"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/decalgraffiti015a"
+	"origin" "-756.077 -256 -168.642"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "26614"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/decalplaster003b"
+	"origin" "-431.467 -256 -101.853"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
 	}
 }
 cameras
