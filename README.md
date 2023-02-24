@@ -39,3 +39,9 @@ Initial release.
 
 * Added textures and improved lighting.
 * Tweaked encounters.
+
+### 2023-02-23 - v7
+
+* Add decals (graffiti, bloodstains, etc).
+* Change soundtrack to CP Violation.
+* Make the stairs rapeller come down separately when player sneaks up.
