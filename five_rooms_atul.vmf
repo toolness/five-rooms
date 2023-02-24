@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "974"
+	"mapversion" "978"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "974"
+	"mapversion" "978"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30707,6 +30707,165 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "26670"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti018a"
+	"origin" "-513.46 64 -184.91"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "26723"
+	"classname" "item_battery"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "-1038.38 -235.167 -191.724"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "26685"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti020a"
+	"origin" "-284.019 -256 -200.941"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "26718"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti025a"
+	"origin" "-1056 -213.074 -133.105"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "26725"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti023a"
+	"origin" "-921.149 64 -146.197"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12768]"
+	}
+}
+entity
+{
+	"id" "26817"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti001a"
+	"origin" "-104.864 0 80.9886"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "26764"
+	"classname" "infodecal"
+	"texture" "decals/debris_tile001a"
+	"origin" "-808.672 -16.0167 -192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
+	}
+}
+entity
+{
+	"id" "26803"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti001b"
+	"origin" "-22.6372 -256 71.9465"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 500]"
+	}
+}
+entity
+{
+	"id" "26773"
+	"classname" "infodecal"
+	"texture" "decals/plaster015a"
+	"origin" "-192 -12.6617 -214.171"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4768]"
+	}
+}
+entity
+{
+	"id" "26791"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti007a"
+	"origin" "64 -96.7973 56.723"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1768]"
+	}
+}
+entity
+{
+	"id" "26794"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/decalgraffiti028a"
+	"origin" "-121.771 -256 32.0256"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1268]"
 	}
 }
 cameras
