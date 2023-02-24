@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "958"
+	"mapversion" "961"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "958"
+	"mapversion" "961"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -24196,7 +24196,7 @@ entity
 		"OnPressed" "shotgun_room_door,Open,,0,-1"
 		"OnPressed" "rapell_trigger,Enable,,0,-1"
 		"OnPressed" "shieldwall_shutdown,PlaySound,,0,-1"
-		"OnPressed" "soundtrack,PlaySound,,3,-1"
+		"OnPressed" "soundtrack,PlaySound,,2,-1"
 		"OnPressed" "buttonroom_light,TurnOff,,0,-1"
 		"OnPressed" "buttonroom_light_prop,Skin,0,0,-1"
 		"OnPressed" "buttonroom_light_sprite,HideSprite,,0,-1"
