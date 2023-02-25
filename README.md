@@ -45,3 +45,7 @@ Initial release.
 * Add decals (graffiti, bloodstains, etc).
 * Change soundtrack to CP Violation.
 * Make the stairs rapeller come down separately when player sneaks up.
+
+### 2023-02-25 - v8
+
+* Added more environment art.
