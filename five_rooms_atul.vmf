@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "1001"
+	"mapversion" "1004"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "1001"
+	"mapversion" "1004"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13359,11 +13359,11 @@ world
 		side
 		{
 			"id" "3761"
-			"plane" "(-1048 192 136) (-1048 -256 136) (-1152 -256 160)"
+			"plane" "(-1040 192 136) (-1040 -256 136) (-1152 -256 160)"
 			vertices_plus
 			{
-				"v" "-1048 192 136"
-				"v" "-1048 -256 136"
+				"v" "-1040 192 136"
+				"v" "-1040 -256 136"
 				"v" "-1152 -256 160"
 				"v" "-1152 192 160"
 			}
@@ -13377,11 +13377,11 @@ world
 		side
 		{
 			"id" "3762"
-			"plane" "(-1048 -256 128) (-1048 192 128) (-1152 192 128)"
+			"plane" "(-1040 -256 128) (-1040 192 128) (-1152 192 128)"
 			vertices_plus
 			{
-				"v" "-1048 -256 128"
-				"v" "-1048 192 128"
+				"v" "-1040 -256 128"
+				"v" "-1040 192 128"
 				"v" "-1152 192 128"
 				"v" "-1152 -256 128"
 			}
@@ -13413,13 +13413,13 @@ world
 		side
 		{
 			"id" "3764"
-			"plane" "(-1048 -256 128) (-1048 -256 136) (-1048 192 136)"
+			"plane" "(-1040 -256 128) (-1040 -256 136) (-1040 192 136)"
 			vertices_plus
 			{
-				"v" "-1048 -256 128"
-				"v" "-1048 -256 136"
-				"v" "-1048 192 136"
-				"v" "-1048 192 128"
+				"v" "-1040 -256 128"
+				"v" "-1040 -256 136"
+				"v" "-1040 192 136"
+				"v" "-1040 192 128"
 			}
 			"material" "METAL/METALWALL026A"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -13431,13 +13431,13 @@ world
 		side
 		{
 			"id" "3765"
-			"plane" "(-1152 192 160) (-1152 192 128) (-1048 192 128)"
+			"plane" "(-1152 192 160) (-1152 192 128) (-1040 192 128)"
 			vertices_plus
 			{
 				"v" "-1152 192 160"
 				"v" "-1152 192 128"
-				"v" "-1048 192 128"
-				"v" "-1048 192 136"
+				"v" "-1040 192 128"
+				"v" "-1040 192 136"
 			}
 			"material" "METAL/METALWALL026A"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -13449,13 +13449,13 @@ world
 		side
 		{
 			"id" "3766"
-			"plane" "(-1152 -256 128) (-1152 -256 160) (-1048 -256 136)"
+			"plane" "(-1152 -256 128) (-1152 -256 160) (-1040 -256 136)"
 			vertices_plus
 			{
 				"v" "-1152 -256 128"
 				"v" "-1152 -256 160"
-				"v" "-1048 -256 136"
-				"v" "-1048 -256 128"
+				"v" "-1040 -256 136"
+				"v" "-1040 -256 128"
 			}
 			"material" "METAL/METALWALL026A"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -25818,7 +25818,7 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"spawnflags" "256"
-	"origin" "-1007.81 -208.129 -171.536"
+	"origin" "-991.81 -192.129 -171.536"
 	editor
 	{
 		"color" "220 30 220"
@@ -28529,8 +28529,9 @@ entity
 {
 	"id" "26718"
 	"classname" "infodecal"
+	"angles" "0 0 0"
 	"texture" "decals/decalgraffiti025a"
-	"origin" "-1056 -213.074 -133.105"
+	"origin" "-1056 -205.074 -133.105"
 	editor
 	{
 		"color" "220 30 220"
@@ -28562,7 +28563,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "-1038.38 -235.167 -191.724"
+	"origin" "-1030.38 -227.167 -191.724"
 	editor
 	{
 		"color" "0 0 200"
@@ -29587,13 +29588,13 @@ entity
 		side
 		{
 			"id" "2998"
-			"plane" "(-1056 192 0) (-992 192 0) (-992 -256 0)"
+			"plane" "(-1056 192 0) (-992 192 0) (-992 -192 0)"
 			vertices_plus
 			{
 				"v" "-1056 192 0"
 				"v" "-992 192 0"
-				"v" "-992 -256 0"
-				"v" "-1056 -256 0"
+				"v" "-992 -192 0"
+				"v" "-1056 -192 0"
 			}
 			"material" "METAL/METALGRATE013B"
 			"uaxis" "[1 0 0 128] 0.25"
@@ -29605,11 +29606,11 @@ entity
 		side
 		{
 			"id" "2997"
-			"plane" "(-1056 -256 -8) (-992 -256 -8) (-992 192 -8)"
+			"plane" "(-1056 -192 -8) (-992 -192 -8) (-992 192 -8)"
 			vertices_plus
 			{
-				"v" "-1056 -256 -8"
-				"v" "-992 -256 -8"
+				"v" "-1056 -192 -8"
+				"v" "-992 -192 -8"
 				"v" "-992 192 -8"
 				"v" "-1056 192 -8"
 			}
@@ -29623,12 +29624,12 @@ entity
 		side
 		{
 			"id" "2996"
-			"plane" "(-1056 192 0) (-1056 -256 0) (-1056 -256 -8)"
+			"plane" "(-1056 192 0) (-1056 -192 0) (-1056 -192 -8)"
 			vertices_plus
 			{
 				"v" "-1056 192 0"
-				"v" "-1056 -256 0"
-				"v" "-1056 -256 -8"
+				"v" "-1056 -192 0"
+				"v" "-1056 -192 -8"
 				"v" "-1056 192 -8"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
@@ -29641,12 +29642,12 @@ entity
 		side
 		{
 			"id" "2995"
-			"plane" "(-992 192 -8) (-992 -256 -8) (-992 -256 0)"
+			"plane" "(-992 192 -8) (-992 -192 -8) (-992 -192 0)"
 			vertices_plus
 			{
 				"v" "-992 192 -8"
-				"v" "-992 -256 -8"
-				"v" "-992 -256 0"
+				"v" "-992 -192 -8"
+				"v" "-992 -192 0"
 				"v" "-992 192 0"
 			}
 			"material" "METAL/METALTRUSS022C"
@@ -29677,13 +29678,13 @@ entity
 		side
 		{
 			"id" "2993"
-			"plane" "(-992 -256 -8) (-1056 -256 -8) (-1056 -256 0)"
+			"plane" "(-992 -192 -8) (-1056 -192 -8) (-1056 -192 0)"
 			vertices_plus
 			{
-				"v" "-992 -256 -8"
-				"v" "-1056 -256 -8"
-				"v" "-1056 -256 0"
-				"v" "-992 -256 0"
+				"v" "-992 -192 -8"
+				"v" "-1056 -192 -8"
+				"v" "-1056 -192 0"
+				"v" "-992 -192 0"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -32125,6 +32126,33 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "29034"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_pipes/gutter_320_001a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1048 -232 -32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
 	}
 }
 cameras
