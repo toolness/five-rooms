@@ -49,3 +49,8 @@ Initial release.
 ### 2023-02-25 - v8
 
 * Added more environment art.
+
+### 2023-02-26 - v9
+
+* Converted doors into proper rotating doors.
+* Improved visibility of some ambushing enemies.
