@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "1044"
+	"mapversion" "1048"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "1"
 }
 palette_plus
 {
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "1044"
+	"mapversion" "1048"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -22236,7 +22236,7 @@ entity
 	"rendermode" "9"
 	"scale" ".75"
 	"spawnflags" "1"
-	"origin" "-280.125 601.398 109.126"
+	"origin" "-386.125 845.398 229.126"
 	editor
 	{
 		"color" "160 233 0"
@@ -22260,7 +22260,9 @@ entity
 	"_quadratic_attn" "1"
 	"angles" "-90 90 0"
 	"pitch" "-90"
-	"origin" "-280.582 601.915 109.114"
+	"spawnflags" "1"
+	"targetname" "rapell_nook_light_spot"
+	"origin" "-386.582 845.915 229.114"
 	editor
 	{
 		"color" "160 233 0"
@@ -22288,7 +22290,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-280 576 71.4126"
+	"origin" "-386 820 191.413"
 	editor
 	{
 		"color" "160 233 0"
@@ -22312,8 +22314,10 @@ entity
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
+	"spawnflags" "1"
 	"style" "0"
-	"origin" "-280 601.285 92.6622"
+	"targetname" "rapell_nook_light"
+	"origin" "-386 845.285 212.662"
 	editor
 	{
 		"color" "160 233 0"
@@ -28729,6 +28733,8 @@ entity
 		"OnTrigger" "rapeller2,Wake,,0,-1"
 		"OnTrigger" "rapeller2,BeginRappel,,0.25,-1"
 		"OnTrigger" "rapeller_audio2,PlaySound,,0,-1"
+		"OnTrigger" "rapell_nook_light,TurnOn,,0,-1"
+		"OnTrigger" "rapell_nook_light_spot,TurnOn,,0,-1"
 	}
 	"origin" "-390.216 855.309 124"
 	editor
