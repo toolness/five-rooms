@@ -2,6 +2,14 @@ This is Atul's level for Steve Lee's [Level Design Game Jam: Five Rooms][ldjam].
 
 [ldjam]: https://www.notion.so/toolness/Level-Design-Game-Jam-Five-Rooms-c5c00942c7614a439b83eca1e8398267
 
+## Quick start
+
+1. Install Half Life 2: Episode Two.
+2. Right-click on the game's entry in your Steam library, and go to "Manage -> Browse local files".
+3. Drag `five_rooms_atul.bsp` into the `ep2/maps` directory.
+4. Start the game and go to "Options -> Keyboard -> Advanced... -> Enable developer console".
+5. Press the tilde key and type `map five_rooms_atul` and press enter.
+
 ## Changelog
 
 ### 2023-01-29 - v1
