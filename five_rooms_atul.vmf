@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "1069"
+	"mapversion" "1070"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -102,7 +102,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "1069"
+	"mapversion" "1070"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33097,7 +33097,7 @@ entity
 {
 	"id" "30765"
 	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
+	"additionalequipment" "weapon_smg1"
 	"angles" "0 0 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
